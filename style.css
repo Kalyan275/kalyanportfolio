@@ -592,6 +592,19 @@ section{
         margin-left: 5rem;
         margin-top: 20px;
     }
+    .contact form .input-box input,
+    .contact form textarea{
+        width: 100%;
+        padding: 2rem;
+        padding-top: 7px;
+        font-size: 1rem;
+        color: whitesmoke;
+        background:black;
+        border-radius: 1rem;
+        border: 2px solid rgb(209, 255, 2);
+        margin: 1.5rem 0;
+        resize: none;
+    }
 }
 
 @media(max-width:600px){
@@ -755,6 +768,7 @@ section{
     #phone{
         font-size: 10px;
     }
+   
 }
 
 @media (max-width:350px){
@@ -795,6 +809,9 @@ section{
         font-size: 14px;
         display: flex;
     }
+    /* #msg{
+        display: block;
+    } */
 }
 
 @media (max-width:300px){
@@ -870,4 +887,10 @@ section{
     #input-group-2{
         width: 100%;
     }
+    /* #msg{
+        display: none;
+    }
+    #contact .input-box{
+        width: 100%;
+    } */
 }
